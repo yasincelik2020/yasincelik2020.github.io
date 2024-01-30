@@ -1,0 +1,90 @@
+*{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+:root{
+    --primary:#03588C;
+    --secondary: #3279A6;
+    --third:#2B718C;
+    --fourth:#66CDD9;
+    --fifth:#F2F2F2;
+    
+}
+
+body{
+    background-color: var(--fifth);
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    background-color: var(--fourth);
+
+}
+.image img{
+    width: 180px;
+    height: 180px;
+    border: 2px solid black;
+    border-radius: 50%; /* ya da degerin yarisi 100px yazarsak ayni sonucu elde ederiz*/
+}
+.links{
+    display:flex;
+    flex-direction: column;
+
+}
+.links a i{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.titles{
+    text-align: center;
+}
+.main{
+    display: flex;
+    height: 50vh;
+
+}
+.menu{
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+    border-right: 2px solid black;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu a{
+    text-decoration: none;
+}
+.contentHome{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contentAbout{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+
+}
+.contentProjects{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+
+}
+.contentProjects ul li a{
+    text-decoration: none;
+}
